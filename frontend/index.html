@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption & Decryption App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Encryption & Decryption Web Application</h2>
+    <div class="container">
+        <textarea id="inputText" placeholder="Enter your text..."></textarea>
+        <select id="action">
+            <option value="encrypt">Encrypt</option>
+            <option value="decrypt">Decrypt</option>
+        </select>
+        <button onclick="processText()">Submit</button>
+        <textarea id="outputText" readonly placeholder="Result..."></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
